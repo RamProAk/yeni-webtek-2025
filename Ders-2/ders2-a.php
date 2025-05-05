@@ -37,17 +37,17 @@ Değişken tanımlama;
 ?>
 <h5>Çıkarma İşlemi</h5>
 <?php
-    $sayi1=50; //Sayi1 değişkeni tanımlandı
-    $sayi2=77; // Sayi2 değişkeni tanımlandı
-    $sonuc=$sayi1+$sayi2; //Toplama işlemi yapıldı.
+    $sayi1=77; //Sayi1 değişkeni tanımlandı
+    $sayi2=50; // Sayi2 değişkeni tanımlandı
+    $sonuc=$sayi1-$sayi2; //Çıkarma işlemi yapıldı.
     echo $sonuc; //Sonuç ekrana yazdırıldı.
-    echo "<br>işlemin sonucu: $sayi1+$sayi2=$sonuc"; //sonuç ekrana yazdırıldı.
+    echo "<br>işlemin sonucu: $sayi1-$sayi2=$sonuc"; //sonuç ekrana yazdırıldı.
     
-    echo "<br><br> Atamalı Toplama İşlemi:";
+    echo "<br><br> Atamalı Çıkarma İşlemi:";
 
     $deger=120;
     $ekdeger=72;
-    echo "<br> Sonuç: $deger - $ekdeger =" . $deger +=$ekdeger; 
+    echo "<br> Sonuç: $deger - $ekdeger =" . $deger -=$ekdeger; 
     echo "<br>Değer Değişkeninin İçeriği: $deger";
     echo "<br>Değer Değişkeninin Yeni İçeriği:". $deger-=123;
     echo "<br>Değer Değişkeninin Son İçeriği: $deger";
@@ -58,14 +58,14 @@ Değişken tanımlama;
 <?php
     $sayi1=50; //Sayi1 değişkeni tanımlandı
     $sayi2=77; // Sayi2 değişkeni tanımlandı
-    $sonuc=$sayi1*$sayi2; //Toplama işlemi yapıldı.
+    $sonuc=$sayi1*$sayi2; //ÇArpma işlemi yapıldı.
     echo $sonuc; //Sonuç ekrana yazdırıldı.
     echo "<br>işlemin sonucu: $sayi1*$sayi2=$sonuc"; //sonuç ekrana yazdırıldı.
     
-    echo "<br><br> Atamalı Toplama İşlemi:";
+    echo "<br><br> Atamalı Çarpma İşlemi:";
 
     $deger=120;
-    $ekdeger=72;
+    $ekdeger=5;
     echo "<br> Sonuç: $deger * $ekdeger =" . $deger *=$ekdeger; 
     echo "<br>Değer Değişkeninin İçeriği: $deger";
     echo "<br>Değer Değişkeninin Yeni İçeriği:". $deger*=123;
@@ -77,17 +77,17 @@ Değişken tanımlama;
 <?php
     $sayi1=50; //Sayi1 değişkeni tanımlandı
     $sayi2=13; // Sayi2 değişkeni tanımlandı
-    $sonuc=$sayi1/$sayi2; //Toplama işlemi yapıldı.
+    $sonuc=$sayi1/$sayi2; //Bölme işlemi yapıldı.
     echo $sonuc; //Sonuç ekrana yazdırıldı.
     echo "<br>işlemin sonucu: $sayi1/$sayi2=$sonuc"; //sonuç ekrana yazdırıldı.
     
-    echo "<br><br> Atamalı Toplama İşlemi:";
+    echo "<br><br> Atamalı Bölme İşlemi:";
 
     $deger=120;
-    $ekdeger=72;
+    $ekdeger=5;
     echo "<br> Sonuç: $deger / $ekdeger =" . $deger /=$ekdeger; 
     echo "<br>Değer Değişkeninin İçeriği: $deger";
-    echo "<br>Değer Değişkeninin Yeni İçeriği:". $deger/=123;
+    echo "<br>Değer Değişkeninin Yeni İçeriği:". $deger/=4;
     echo "<br>Değer Değişkeninin Son İçeriği: $deger";
     
    
@@ -100,7 +100,7 @@ Değişken tanımlama;
 <?php
     $sayi1=50; //Sayi1 değişkeni tanımlandı
     $sayi2=10; // Sayi2 değişkeni tanımlandı
-    $sonuc=$sayi1%$sayi2; //Toplama işlemi yapıldı.
+    $sonuc=$sayi1%$sayi2; //Mod işlemi yapıldı.
     echo $sonuc; //Sonuç ekrana yazdırıldı.
     echo "<br>işlemin sonucu: $sayi1%$sayi2=$sonuc"; //sonuç ekrana yazdırıldı.
     ?>
@@ -112,7 +112,7 @@ Değişken tanımlama;
     echo "<br>Arttırma İşlemi Yapıldı:". $sayi1++; //Bu satırda hala $sayi değerini yazacaktır fakat bir sonraki 
     //değişkeni çağırdığımız satırda değişkenin 1 arttırıldığı görüntülenecektir. 
     //Değişkenin sağında bulunan ++ ifadesi satır yorumlandıktan sonra arttırma işlemini yapar.
-    echo "<br>Değişkein Değeri:". $sayi1; 
+    echo "<br>Değişkenin Değeri:". $sayi1; 
     ?>
 <h5>Arttırma İşlemi</h5>
 <?php
@@ -127,12 +127,12 @@ echo "<br>Azaltma işlemi yapıldı:".$sayi2--;
 echo "<br>Azaltma işlemi yapıldı:".$sayi2--;
 echo "<br>Azaltma işlemi yapıldı:".$sayi2--;
 
-echo "<br>Değişkenin Değeri:". $sayi2; 
+echo "<br>Değişkenin Değeri:". $sayi2."<br>"; 
 
 $sayi3=6;
-echo "<br>Arttırma İşlemi Yapıldı:". --$sayi3;
-echo "<br>Arttırma İşlemi Yapıldı:". --$sayi3;
-echo "<br>Arttırma İşlemi Yapıldı:". --$sayi3;
+echo "<br>Azaltma İşlemi Yapıldı:". --$sayi3;
+echo "<br>Azaltma İşlemi Yapıldı:". --$sayi3;
+echo "<br>Azaltma İşlemi Yapıldı:". --$sayi3;
 
 echo "<br>Değişkenin Değeri:". $sayi3; 
 

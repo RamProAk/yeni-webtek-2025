@@ -36,21 +36,30 @@ echo "Sonuç=" . floor($sayi1);
 $sayi1 = 13.7541;
 echo "Sonuç=" . round($sayi1);
 
-$sayi2 = 57.323;
+$sayi2 = 5721.49876;
 echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2);
 
 echo "<hr><br> ilk iki hanenin sabit tutularak 3.haneye göre round işleminin uygulanması:";
-$sayi2 = 57.323;
+$sayi2 = 5721.55648;
+echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2,0);
+
+$sayi2 = 57.45648;
+echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2,1);
+$sayi2 = 57.45648;
 echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2,2);
 
-$sayi2 = 57.3298;
+$sayi2 = 57.45648;
 echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2,3);
+$sayi2 = 57.45648;
+echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2,4);
+$sayi2 = 57.456487;
+echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2,5);
 
 
 
 echo "<hr><br> Virgülden öncesi için yuvarlama uygulaması:";
 
-$sayi2 = 54578.323567;
+$sayi2 = 54578.59999;
 echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2,0);
 
 $sayi2 = 54578.323567;
@@ -62,7 +71,7 @@ echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($s
 $sayi2 = 54578.329847;
 echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2,-3);
 
-$sayi2 = 54578.323567;
+$sayi2 = 64578.323567;
 echo "<br>\$sayi2 değişkeninin değeri $sayi2 Round işlemi sonucu:". round($sayi2,-4);
 
 $sayi2 = 54578.323567;
@@ -76,6 +85,7 @@ echo "<br> \$Sayi1 değişkeninin değeri $sayi1 yukarı yuvarlama işlemi sonuc
 echo "<br> \$Sayi1 değişkeninin değeri $sayi1 yukarı yuvarlama işlemi sonucu:" . number_format ($sayi1,1); 
 echo "<br> \$Sayi1 değişkeninin değeri $sayi1 yukarı yuvarlama işlemi sonucu:" . number_format ($sayi1,2); 
 echo "<br> \$Sayi1 değişkeninin değeri $sayi1 yukarı yuvarlama işlemi sonucu:" . number_format ($sayi1,3); 
+echo "<br> \$Sayi1 değişkeninin değeri $sayi1 yukarı yuvarlama işlemi sonucu:" . number_format ($sayi1,4); 
 echo "<br> \$Sayi1 değişkeninin değeri $sayi1 yukarı yuvarlama işlemi sonucu:" . number_format ($sayi1,2,",","."). " TL"; 
 echo "<br> \$Sayi1 değişkeninin değeri $sayi1 yukarı yuvarlama işlemi sonucu:" . number_format ($sayi1,0,",","."). " TL"; 
 

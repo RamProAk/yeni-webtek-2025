@@ -24,7 +24,7 @@
     echo "<br> Aydın Adnan Menderes Üniversitesi <br> Aydın MYO Bilgisayar Programcılığı <br>";
 
     // Uygulama : Bir değişken tanımlama ve değişkeni ekrana yazdırma
-    $metin = "<br> Aydın Adnan Menderes Üniversitesi <br> Aydın MYO Bilgisayar Programcılığı <br>";
+    $metin = "<br> Kafkas Üniversitesi <br> Aydın MYO Bilgisayar Programcılığı <br>";
 
     echo $metin;
 
@@ -33,7 +33,7 @@
     echo $kharf = strtolower($bharf);
 
     echo $bharf2 = mb_strtoupper($metin); 
-    echo $kharf2 = mb_strtolower($bharf2);
+    echo $kharf2 = mb_strtolower($bharf2); /* mb_strtoupper: multibyte string to upper: karakter desteği sağlar */
 
 
     ?>

@@ -23,8 +23,8 @@
 
 <?php
 
-$kullanici_adi     =$_GET["username"];
-$kullanici_sifresi =$_GET["password"];
+$kullanici_adi     =@$_GET["username"];
+$kullanici_sifresi =@$_GET["password"];
 
 echo "Formdan Gelen Kullanıcı Adı: $kullanici_adi <br>";
 echo "Formdan Gelen Kullanıcı Şifresi: $kullanici_sifresi <br>";

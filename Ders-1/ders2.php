@@ -12,16 +12,16 @@
 
     <?php
 
-    $metin = " aydın adnan menderes universitesi ";
-    $byazi = strtoupper($metin); //Yazıyı büyük harfe dönüştür.
-    $kyazi = strtolower($byazi); //Yazıyı küçük harfe dönüştür.
-    $mb_byazi = mb_strtoupper($kyazi); //Yazıyı büyük harfe dönüştür.
-    $mb_kyazi = mb_strtolower($mb_byazi); //Yazıyı küçük harfe dönüştür.
-    $ilkharf_buyuk_metin = ucfirst($mb_kyazi); // Gelen metnin ilk harfini büyütür.
-    echo $ilkharf_buyuk_kelime = ucwords($mb_kyazi); // Gelen metinin kelimelerinin baş harflerini büyütür
-
-    echo "<br>Karakter Sayısı: " . strlen($metin);
-    echo "<br> Metnin belirli bir aralıktaki karakter sayısı: " . substr($metin, 0, 13);
+    $metin = "aydın adnan menderes universitesi ";
+    echo $byazi = strtoupper($metin)."<br>"."<br>"; //Yazıyı büyük harfe dönüştür.
+    echo $kyazi = strtolower($byazi); //Yazıyı küçük harfe dönüştür.
+    echo $mb_byazi = mb_strtoupper($kyazi); //Yazıyı büyük harfe dönüştür.
+    echo $mb_kyazi = mb_strtolower($mb_byazi); //Yazıyı küçük harfe dönüştür.
+    echo $ilkharf_buyuk_metin = ucfirst($mb_kyazi); // Gelen metnin ilk harfini büyütür.uppercase first
+    echo $ilkharf_buyuk_kelime = ucwords($mb_kyazi); // Gelen metinin kelimelerinin baş harflerini büyütür.uppercase words.her kelimenin baş harfini büyütür.
+    
+    echo "<br>Karakter Sayısı: " . strlen($metin);//strlen:string length : metin uzunluğu
+    echo "<br> Metnin belirli bir aralıktaki karakter sayısı: " . substr($metin, 0, 13); // substr:sub string : alt metin
     ?>
 
 
