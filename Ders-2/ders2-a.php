@@ -16,7 +16,7 @@ Değişken tanımlama;
 6. Programlama dili içerisinde bulunan özel tanımlar değişken ismi olarak kullanılamaz.
 -->
 
-<h4>Matematiksel İfadeler</h4>
+<h4>Matematiksel İfadeler</h4> 
 <h5>Toplama İşlemi</h5>
 <?php
     $sayi1=20; //Sayi1 değişkeni tanımlandı
